@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+}
+.heading{
+    text-align: center;
+    margin: 30px;
+    color: rgb(219, 72, 91);
+}
+.log{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+}
+form{
+    height: 50vh;
+    width: 40vw;
+    border: 2px solid black;
+    background-color: rgb(223, 190, 220);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+table{
+    margin-top: 50px;
+}
+td{
+    border: 0px;
+    padding: 10px;
+}
+td input{
+    border-radius: 10px;
+}
+#sub{
+    text-align: center;
+}
+#sub input{
+    height: 20px;
+    width: 50px;
+    color: green;
+    background-color: rgb(228, 170, 170);
+    border-radius: 10px;
+}
